@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto';
+}
+
 header{
     padding: 10px;
     background-color: #182c61;
@@ -11,12 +15,14 @@ header{
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
+    font-family: 'Bungee';
 }
+
 
 header nav li a{
     color: white;
     text-decoration: none;
-    font: normal bold 1.1em serif;
+    font: normal bold 1.3em;
 
 }
 header nav li{
@@ -48,6 +54,7 @@ header .container{
 
 .container h2{
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .container img{
